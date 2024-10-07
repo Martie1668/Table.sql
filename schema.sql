@@ -19,11 +19,11 @@ ContactPhone  VARCHAR(50),
 Address  VARCHAR(50)
 );
 
-CREATE TABLE Categories ( 
-CategoryID integer primary key, 
-GroupName VARCHAR(100), 
-Categoryllame varchar
- ); 
+create table  Categories (
+	CategoryID  INT,
+	GroupName  VARCHAR(50),
+	CategoryName VARCHAR(50)
+);
 
 
 CREATE TABLE Orders ( 
