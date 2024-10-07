@@ -11,13 +11,13 @@ SupplierID int
 ); 
 
 
-CREATE TABLE Suppliers ( 
-SupplierID integer primary key, 
-SupplierName varchar (50), 
-ContactEmail varchar (50), 
-ContactPhone timestamp, 
-Address varchar
-); 
+create table Suppliers (
+	SupplierID  INT,
+	SupplierName VARCHAR(50),
+	ContactEmail  VARCHAR(50),
+	ContactPhone  VARCHAR(50),
+	Address  VARCHAR(50)
+);
 
 CREATE TABLE Categories ( 
 CategoryID integer primary key, 
