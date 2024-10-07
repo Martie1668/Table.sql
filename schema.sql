@@ -20,9 +20,9 @@ Address  VARCHAR(50)
 );
 
 create table  Categories (
-	CategoryID  INT,
-	GroupName  VARCHAR(50),
-	CategoryName VARCHAR(50)
+CategoryID  INT,
+GroupName  VARCHAR(50),
+CategoryName VARCHAR(50)
 );
 
 
