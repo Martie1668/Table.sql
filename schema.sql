@@ -12,11 +12,11 @@ SupplierID int
 
 
 create table Suppliers (
-	SupplierID  INT,
-	SupplierName VARCHAR(50),
-	ContactEmail  VARCHAR(50),
-	ContactPhone  VARCHAR(50),
-	Address  VARCHAR(50)
+SupplierID  INT,
+SupplierName VARCHAR(50),
+ContactEmail  VARCHAR(50),
+ContactPhone  VARCHAR(50),
+Address  VARCHAR(50)
 );
 
 CREATE TABLE Categories ( 
